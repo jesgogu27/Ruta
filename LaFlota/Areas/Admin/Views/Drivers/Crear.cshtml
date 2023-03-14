@@ -1,0 +1,73 @@
+﻿@model LaFlota.Models.Driver
+
+@{
+    ViewData["Title"] = "Crear Conductor";
+}
+
+<br />
+<br />
+
+<h3 class="text-center">Crear Conductor</h3>
+
+<div class="card-body">
+    <form method="post" asp-action="Crear">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="first_Name" class="control-label">Ingrese Nombres</label>
+            <input asp-for="first_Name" class="form-control" placeholder="Nombres" />
+            <span asp-validation-for="first_Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="last_Name" class="control-label">Ingrese Apellidos</label>
+            <input asp-for="last_Name" class="form-control" placeholder="Apellidos" />
+            <span asp-validation-for="last_Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="ssd" class="control-label"> Ingrese ssd</label>
+            <input asp-for="ssd" class="form-control" placeholder="ssd" />
+            <span asp-validation-for="ssd" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="dob" class="control-label">Ingrese dob</label>
+            <input asp-for="dob" type="date" class="form-control" placeholder="dob" />
+            <span asp-validation-for="dob"  class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="address" class="control-label">Direccion</label>
+            <input asp-for="address" asp- class="form-control" placeholder="Direccion" />
+        
+        </div>
+        <div class="form-group">
+            <label asp-for="city" class="control-label">Ciudad</label>
+            <input asp-for="city"  asp- class="form-control" placeholder="Ciudad" />
+        
+        </div>
+        <div class="form-group">
+            <label asp-for="zip" class="control-label">Código postal</label>
+            <input asp-for="zip" asp- class="form-control" placeholder="Código postal" />
+        
+        </div>
+        <div class="form-group">
+            <label asp-for="phone" class="control-label">Teléfono</label>
+            <input asp-for="phone" asp- class="form-control" placeholder="Teléfono" />
+        </div>
+        <div class="form-group">
+            <label asp-for="active" class="control-label">Active</label>
+            <input type="radio" id="activo" name="estado" value=true>
+            <label for="activo">Si</label>
+            <input type="radio" id="inactivo" name="estado" value=false>
+            <label for="inactivo">No</label><br>
+       
+        </div>
+
+        <div class="form-group mt-3">
+            <div class="col-8">
+                <partial name="_VistaCrearVolver" />
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,40 @@
+﻿@model LaFlota.Models.Driver;
+
+<div class="container"> 
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-primary"> Lista Conductores</h2>
+        </div>
+        <div class="offset-9 col-3 mb-3">
+            <a asp-action="Crear" asp-controller="Drivers" class="btn btn-secondary d-block mx-auto btn-lg">
+                <i class="fas fa-plus"></i>Nuevo Conductor
+            </a>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<div class="card-body">
+    <div class="table-responsive">
+        <table id="tblDrivers" class="table table-bordered" cellspacing="0" style="width:100%">
+            <thead>
+                <th>@Html.DisplayNameFor(m => m.id)</th>
+                <th>@Html.DisplayNameFor(m => m.first_Name)</th>
+                <th>@Html.DisplayNameFor(m => m.last_Name)</th>
+                <th>@Html.DisplayNameFor(m => m.ssd)</th>
+                <th>@Html.DisplayNameFor(m => m.dob)</th>
+                <th>@Html.DisplayNameFor(m => m.city)</th>
+                <th>@Html.DisplayNameFor(m => m.address)</th>
+                <th>@Html.DisplayNameFor(m => m.zip)</th>
+                <th>@Html.DisplayNameFor(m => m.phone)</th>
+                <th>@Html.DisplayNameFor(m => m.active)</th>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts{
+
+
+    <script src="~/js/driver.js"></script>
+}
