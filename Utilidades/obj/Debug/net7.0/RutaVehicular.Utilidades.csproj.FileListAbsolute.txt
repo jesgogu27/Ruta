@@ -1,0 +1,12 @@
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\bin\Debug\net7.0\RutaVehicular.Utilidades.deps.json
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\bin\Debug\net7.0\RutaVehicular.Utilidades.dll
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\bin\Debug\net7.0\RutaVehicular.Utilidades.pdb
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\RutaVehicular.Utilidades.csproj.AssemblyReference.cache
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\RutaVehicular.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\RutaVehicular.Utilidades.AssemblyInfoInputs.cache
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\RutaVehicular.Utilidades.AssemblyInfo.cs
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\RutaVehicular.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\RutaVehicular.Utilidades.dll
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\refint\RutaVehicular.Utilidades.dll
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\RutaVehicular.Utilidades.pdb
+C:\Users\jesgo\source\repos\C-\RutaVehicular\RutaVehicular\Utilidades\obj\Debug\net7.0\ref\RutaVehicular.Utilidades.dll
